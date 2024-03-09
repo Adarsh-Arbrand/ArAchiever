@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1577563908411-5077b6dc7624?auto=format&fit=crop&q=80&w=1770&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    height: 500px;
+    border-bottom: inset;
+    border-width: 6px;
+    border-color: #19f951b1;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main h4{
+   font-size: 40px;
+   color: #fff;
+   font-family: 'Ubuntu', sans-serif;
+
+}
+.cources-dir{
+    position: relative;
+    width: 250px;
+    top: -30px;
+    left: 80vh;
+    padding: 15px 30px ;
+    border-radius: 50px;
+    background-color:#19f951;
+    text-align: center;
+    color: #898888;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.cources-dir a{
+    text-decoration: none;
+    color: #fff;
+}
+ /* team section */
+ .team-cont{
+    background-image: url(https://bracketweb.com/eduactwp/wp-content/uploads/2023/09/team-bg-2-2.jpg);
+    background-size: cover;
+    width: 100%;
+ }
+ .team-title{
+    text-align: center;
+ }
+ .team-title h4{
+    color:rgb(79, 93, 227);
+    font-size: 23px;
+    font-family: 'Ubuntu', sans-serif;
+ }
+ .team-title h4 span{
+    color: rgb(255, 166, 0);
+    font-weight:bold;
+ }
+ .team-title p{
+    padding: 15px 0px 30px 0px;
+    font-size: 33px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+ }
+ .team-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+ }
+ .team-item{
+    padding-right: 25px; 
+    position: relative;
+    
+ }
+ .team-item img{
+    max-width: 450px;
+    max-height: 500px;
+    border-radius: 200px;
+    border-bottom: 25px solid rgb(236, 98, 48);
+    border-left: 25px solid rgb(231, 105, 59);
+ }
+ .team-item-detail{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+ .team-item-detail h3{
+    color: #000000;
+    font-size: 22px;
+    font-weight: 800;
+    font-family: 'Ubuntu', sans-serif;
+ }
+ .team-item-media{
+   display: flex;
+   gap:15px;
+   padding: 10px;
+ }
+ .team-item-media i{
+   color: #fff                                                                       ;
+ }
+/* media queary */
+@media(max-width:578px){
+    .cources-dir{
+        top: -20px;
+        width: 150px;
+        left: 30%;
+        padding:7px;
+        font-size:17px ;
+        font-weight: 500;
+        font-family: 'Jost', sans-serif;
+    }
+    .team-title p{
+        font-size: 25px;
+    }
+    .team-main{
+        flex-direction: column;
+    }
+}
+
+/* end media queary */
